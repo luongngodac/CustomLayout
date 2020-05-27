@@ -1,10 +1,10 @@
-package vn.edu.ntu.ngodacluong.customlayout;
+package vn.edu.ntu.ngodacluong.customlayout.model;
 
-public class Model
+public class Friend
 {
     String txtName, txtDateOfBirth, txtPhoneNumber;
 
-    public Model(String txtName, String txtDateOfBirth, String txtPhoneNumber) {
+    public Friend(String txtName, String txtDateOfBirth, String txtPhoneNumber) {
         this.txtName = txtName;
         this.txtDateOfBirth = txtDateOfBirth;
         this.txtPhoneNumber = txtPhoneNumber;
